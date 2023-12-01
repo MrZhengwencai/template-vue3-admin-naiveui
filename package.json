@@ -9,11 +9,7 @@
     "cz": "cz",
     "serve:dev": "vite --mode dev",
     "serve:test": "vite --mode test",
-    "lint": "eslint --ext .js,.vue",
-    "lint:fix": "eslint --fix --ext .vue",
-    "lint:staged": "lint-staged",
-    "prepare": "husky install",
-    "preview": "vite preview",
+    "lint": "eslint . --ext .js,.vue",
     "postinstall": ""
   },
   "lint-staged": {
@@ -69,6 +65,7 @@
     "eslint": "8.9.0",
     "esno": "^0.17.0",
     "fs-extra": "^11.1.1",
+    "husky": "^8.0.3",
     "lint-staged": "^14.0.1",
     "naive-ui": "^2.35.0",
     "rollup-plugin-visualizer": "^5.9.2",
