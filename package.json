@@ -9,7 +9,7 @@
     "cz": "cz",
     "serve:dev": "vite --mode dev",
     "serve:test": "vite --mode test",
-    "lint": "eslint --fix --ext .js,.vue",
+    "lint": "eslint . --ext .vue,.js --fix",
     "prepare": "husky install",
     "postinstall": ""
   },
