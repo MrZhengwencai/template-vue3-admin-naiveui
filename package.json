@@ -2,13 +2,13 @@
   "name": "data-static",
   "version": "1.0.0",
   "scripts": {
+    "serve:dev": "vite --mode dev",
+    "serve:test": "vite --mode test",
     "build:dev": "vite build --mode test",
     "build:test": "vite build --mode test",
     "build:pre": "vite build --mode pre",
     "build:prod": "vite build",
     "cz": "cz",
-    "serve:dev": "vite --mode dev",
-    "serve:test": "vite --mode test",
     "lint": "eslint . --ext .vue,.js --fix",
     "prepare": "husky install",
     "postinstall": ""
